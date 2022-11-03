@@ -1,0 +1,67 @@
+/* this is needed to make the content scrollable on larger screens */
+/* @media (min-width: 576px) {
+    .h-sm-100 {
+        height: 100% !important;
+    }
+} */
+
+/* .nav{
+    color: white !important;
+    font-size: 1.5rem !important;
+    margin-top: 6rem;
+    
+} */
+/* .bg-light{
+    background-color: #beae9f !important;
+} */
+@font-face {
+    font-family: MarkScript ;
+    src: url(./font/MarckScript-Regular.ttf);
+}
+@font-face {
+    font-family: chau;
+    src: url(./font/ChauPhilomeneOne-Italic.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.container-fluid{
+    position: absolute;
+}
+
+
+.nav-link{
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.navbar{
+    position: fixed;
+}
+.bg-secondary{
+    background-color: #f0f1ec !important;}
+.display-4{
+    font-family: MarkScript ;
+}
+h2{
+    font-family: chau;
+}
+/* .work{
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+  right: 0;
+} */
+
+.btn {
+    display: none;
+    
+  }
+  img:hover + .btn {
+    display: inline-block;
+  }
+
