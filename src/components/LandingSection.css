@@ -73,12 +73,17 @@
     .pss{
       z-index: 29;
       width: 720px;
+      
      
 
   }
     .footer {
       width: 720px; /* Full width on smaller screens */
       
+    }
+    .card_text{
+      /* justify-self: left;
+      margin-right: 55rem; */
     }
 
    

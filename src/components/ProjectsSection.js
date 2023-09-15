@@ -6,28 +6,46 @@ import "../components/LandingSection.css";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Sign Up Form",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+      "A Responsive Sign Up Form built using HTML, CSS and using Javascript to validate the sign-up details.",
     getImageSrc: () => require("../images/sign-up1.jpg"),
+    url: "https://forval21.netlify.app/",
   },
   {
-    title: "React Infinite Scroll",
+    title: "NFT Card",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
+      "An NFT Card built using HTML,CSS to show an ethereum coin portfolio .🔥️",
     getImageSrc: () => require("../images/nft1.jpg"),
+    url: "https://ola-torinmo.github.io/nft-preview-card-component-main/",
   },
   {
-    title: "Photo Gallery",
+    title: "Biker Repair Store ",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+      "A Landing page built using HTML,CSS for a local Biker Repair Shop business. For Large screens only ",
     getImageSrc: () => require("../images/biker-store1.jpg"),
+    url: "https://ola-torinmo.github.io/biker-store-website/",
   },
   {
-    title: "Event planner",
+    title: "Restuarant Landing Page",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+      "A Landing Page built using HTML and CSS for Adare Restuarant.For Large screens only  ",
     getImageSrc: () => require("../images/restuarant1.jpg"),
+    url: "https://ola-torinmo.github.io/adare-restuarant/",
+  },
+  {
+    title:"Maternal-Health blog Landing Page",
+    description:
+    "A responsive Landing Page built using React.js ,React-Bootstrap,Css for Reprolife. ",
+    getImageSrc: () => require("../images/reproplp.jpg"),
+    url: "https://reprolp.vercel.app",
+  },
+  {
+    title: "Health/Home-Care Provider Agency Website",
+    description:
+      "A responsive multi-page website built using React.js ,React-Bootstrap,Css for Momentum. ",
+    getImageSrc: () => require("../images/momentum.jpg"),
+    url: "https://moment-vert.vercel.app",
   },
 ];
 
@@ -67,7 +85,7 @@ const ProjectsSection = () => {
             key={project.title}
             title={project.title}
             description={project.description}
-            url="https://github.com/rgommezz/react-native-offline"
+            url={project.url}
             imageSrc={project.getImageSrc()}
             // width={columnWidth}
           />

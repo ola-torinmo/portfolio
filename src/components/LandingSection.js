@@ -5,9 +5,9 @@ import myImage from "../images/bam-bam.jpeg";
 import "../components/LandingSection.css";
 
 
-const greeting = "Hello, I am Bam Bam!";
-const bio1 = "A frontend developer";
-const bio2 = "specialised in React";
+const greeting = "Hello, I am Ayobami Adebayo";
+const bio1 = "A Frontend-Developer";
+const bio2 = "Specialised In React";
 
 // Implement the UI for the LandingSection component according to the instructions.
 // Use a combination of Avatar, Heading and VStack components.
